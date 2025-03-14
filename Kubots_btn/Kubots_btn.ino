@@ -86,10 +86,10 @@ static const char PROGMEM INDEX_HTML[] = R"(
 </head>
 <body id='body'>
   <div class='containerButtons'>
-    <button class='buttons btn-forward' onmousedown='sendCommand('forward')' onmouseup="sendCommand('stop')'>Adelante</button>
-    <button class='buttons btn-backward' onmousedown='sendCommand('backward')' onmouseup="sendCommand('stop')'>Atrás</button>
-    <button class='buttons btn-left' onmousedown="sendCommand('left')' onmouseup='sendCommand('stop')'>Izquierda</button>
-    <button class='buttons btn-right' onmousedown="sendCommand('right')' onmouseup='sendCommand('stop')'>Derecha</button>
+    <button class='buttons btn-forward' onmousedown=\"sendCommand('forward')\" onmouseup=\"sendCommand('stop')\">Adelante</button>
+    <button class='buttons btn-backward' onmousedown=\"sendCommand('backward')\" onmouseup=\"sendCommand('stop')\">Atrás</button>
+    <button class='buttons btn-left' onmousedown=\"sendCommand('left')\" onmouseup=\"sendCommand('stop')\">Izquierda</button>
+    <button class='buttons btn-right' onmousedown=\"sendCommand('right')\" onmouseup=\"sendCommand('stop')\">Derecha</button>
   </div>
   <div class="slider-container">
     <p>Velocidad: <span id="speedValue">128</span></p>
